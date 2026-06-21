@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Awards &amp; Honours — Chang Wan</title>
+<meta name="description" content="Awards and honours received by Chang Wan, communication researcher at Zhejiang University.">
+<meta name="author" content="Chang Wan">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-brand">Chang Wan <span>/ Homepage</span></a>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="publications.html">Publications</a></li>
+    <li><a href="conferences.html">Conferences</a></li>
+    <li><a href="awards.html" class="active">Awards</a></li>
+    <li><a href="service.html">Service</a></li>
+  </ul>
+</nav>
+
+<section>
+  <div class="wrap">
+    <h1 class="section-title">Awards &amp; Honours</h1>
+    <div class="award-item"><div class="award-year">2026</div><div><div class="award-name">Top Methodology Paper</div><div class="award-org">International Communication Association</div></div></div>
+    <div class="award-item"><div class="award-year">2024</div><div><div class="award-name">Scholarship for Academic Excellence for Graduates</div><div class="award-org">Zhejiang University</div></div></div>
+    <div class="award-item"><div class="award-year">2022</div><div><div class="award-name">Regional Winner (Asia) — Business Category</div><div class="award-org">The Global Undergraduate Awards</div></div></div>
+    <div class="award-item"><div class="award-year">2018, 2020</div><div><div class="award-name">Scholarship for Academic Excellence for Undergraduates</div><div class="award-org">Zhejiang University</div></div></div>
+    <div class="award-item"><div class="award-year">2019</div><div><div class="award-name">Scholarship for Internship</div><div class="award-org">Zhejiang University</div></div></div>
+  </div>
+</section>
+
+<footer>© 2026 Chang Wan · Ph.D. Candidate in Communication</footer>
+
+<script>
+  const toggle = document.getElementById('navToggle');
+  const links = document.getElementById('navLinks');
+  toggle.addEventListener('click', () => links.classList.toggle('open'));
+  links.addEventListener('click', e => { if (e.target.tagName === 'A') links.classList.remove('open'); });
+</script>
+</body>
+</html>

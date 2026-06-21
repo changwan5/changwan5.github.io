@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Service &amp; Leadership — Chang Wan</title>
+<meta name="description" content="Academic service and leadership roles of Chang Wan, communication researcher at Zhejiang University.">
+<meta name="author" content="Chang Wan">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-brand">Chang Wan <span>/ Homepage</span></a>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="publications.html">Publications</a></li>
+    <li><a href="conferences.html">Conferences</a></li>
+    <li><a href="awards.html">Awards</a></li>
+    <li><a href="service.html" class="active">Service</a></li>
+  </ul>
+</nav>
+
+<section>
+  <div class="wrap">
+    <h1 class="section-title">Service &amp; Leadership</h1>
+    <div class="service-grid">
+      <div>
+        <div class="service-cat-title">Academic Service</div>
+        <ul class="service-list">
+          <li>Reviewer, <em>Computers in Human Behavior</em></li>
+          <li>Reviewer, <em>Cyberpsychology, Behavior, and Social Networking</em></li>
+          <li>PhD Program Representative, Journalism and Communication, Zhejiang University (2023)</li>
+        </ul>
+      </div>
+      <div>
+        <div class="service-cat-title">Leadership</div>
+        <ul class="service-list">
+          <li>President, Student Radio, Television and Journalist Association, Zhejiang University (2020)</li>
+          <li>Vice President, Radio and Television Station, Zhejiang University (2020)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>© 2026 Chang Wan · Ph.D. Candidate in Communication</footer>
+
+<script>
+  const toggle = document.getElementById('navToggle');
+  const links = document.getElementById('navLinks');
+  toggle.addEventListener('click', () => links.classList.toggle('open'));
+  links.addEventListener('click', e => { if (e.target.tagName === 'A') links.classList.remove('open'); });
+</script>
+</body>
+</html>

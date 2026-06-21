@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Conferences — Chang Wan</title>
+<meta name="description" content="Selected conference presentations by Chang Wan at ICA and AEJMC.">
+<meta name="author" content="Chang Wan">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-brand">Chang Wan <span>/ Homepage</span></a>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="publications.html">Publications</a></li>
+    <li><a href="conferences.html" class="active">Conferences</a></li>
+    <li><a href="awards.html">Awards</a></li>
+    <li><a href="service.html">Service</a></li>
+  </ul>
+</nav>
+
+<section>
+  <div class="wrap">
+    <h1 class="section-title">Selected Conferences</h1>
+    <div class="conf-item"><div class="conf-year">2026</div><div><div class="conf-title">The agency dynamics in Human-AI communication: Understanding how chatbot role and task outcome influence self-attribution.<span class="badge-top">Top Faculty Paper</span></div><div class="conf-venue">ICA 76th Annual Conference · Cape Town, South Africa</div></div></div>
+    <div class="conf-item"><div class="conf-year">2026</div><div><div class="conf-title">From Content to Strategy: Understanding the motivations, processes, and impacts of AI-guided communication.</div><div class="conf-venue">ICA 76th Annual Conference · Cape Town, South Africa</div></div></div>
+    <div class="conf-item"><div class="conf-year">2026</div><div><div class="conf-title">Integrating CASA and machine heuristics in human-AI communication: Boundary effects of communication style and outcome.</div><div class="conf-venue">ICA 76th Annual Conference · Cape Town, South Africa</div></div></div>
+    <div class="conf-item"><div class="conf-year">2026</div><div><div class="conf-title">AI Companionship in Public Space: How Weibo Users Understand Their Relationship with CommentRobot.</div><div class="conf-venue">ICA 76th Annual Conference · Cape Town, South Africa</div></div></div>
+    <div class="conf-item"><div class="conf-year">2025</div><div><div class="conf-title">An intercultural model of strategic communication: Insights from Chinese MNCs in the GCC countries.</div><div class="conf-venue">AEJMC 108th Annual Conference · San Francisco, USA</div></div></div>
+    <div class="conf-item"><div class="conf-year">2025</div><div><div class="conf-title">Engaging CSR through narratives in the AI era: Exploring the impacts of voice source and point of view on narrative transportation.</div><div class="conf-venue">ICA 75th Annual Conference · Denver, USA</div></div></div>
+    <div class="conf-item"><div class="conf-year">2024</div><div><div class="conf-title">Sports mega event and crisis communication in China: Toward the development of crisis nexus theory through a multimethod approach.</div><div class="conf-venue">ICA 74th Annual Conference · Gold Coast, Australia</div></div></div>
+    <div class="conf-item"><div class="conf-year">2023</div><div><div class="conf-title">Cyberbullying as a moral panic: What incites public desires for intervention?</div><div class="conf-venue">ICA 73rd Annual Conference · Vancouver, Canada</div></div></div>
+    <div class="conf-item"><div class="conf-year">2022</div><div><div class="conf-title">The impacts of locus of crisis outcome control on responsibility attribution in hindsight: Focusing on comparisons between American and Chinese publics.</div><div class="conf-venue">AEJMC 105th Annual Conference · Detroit, USA</div></div></div>
+    <div class="conf-item"><div class="conf-year">2022</div><div><div class="conf-title">Corporate social advocacy as a crisis response strategy to issue-based opinion polarization: Evidence from China.</div><div class="conf-venue">ICA 72nd Annual Conference · Paris, France</div></div></div>
+  </div>
+</section>
+
+<footer>© 2026 Chang Wan · Ph.D. Candidate in Communication</footer>
+
+<script>
+  const toggle = document.getElementById('navToggle');
+  const links = document.getElementById('navLinks');
+  toggle.addEventListener('click', () => links.classList.toggle('open'));
+  links.addEventListener('click', e => { if (e.target.tagName === 'A') links.classList.remove('open'); });
+</script>
+</body>
+</html>
